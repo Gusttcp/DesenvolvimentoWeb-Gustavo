@@ -1,0 +1,420 @@
+@charset "utf-8";
+/* --- Estilo criado by: Gustavo Cardoso --- */
+/*---Cabeçalho---*/
+.baner-fundo {
+	width: 900px;
+	height: 100px;
+	background-color: #CCC;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.77);
+	margin: 0px 0px 0px 0px;
+	opacity: .8;
+}
+.logog {
+	width: 450px;
+	height: 100px;
+	margin: 0px 0px 0px 0px;
+	float: left;
+}
+
+.menu {
+	width: 450px;
+	height: 100px;
+	float: right;
+	padding: 35px 0px 50px 0px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 20px;
+}
+/*Botão*/
+
+a {
+	text-decoration: none;
+	float: right;
+	float: none;
+	color: #000;
+}
+a:hover {
+	background-color: #FFF;
+	opacity: .4
+}
+
+/*---Conteudo de página---*/
+
+.conteudog {
+	position:relative;
+	left: 0px;
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.conteudog-pag2 {
+	position:relative;
+	left:0px;
+	width: 900px;
+	height: 1000px;
+	margin: 0 auto;
+}
+.conteudo-pag3 {
+	position:relative;
+	left: 0px;
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.conteudo-pag4 {
+	position:relative;
+	left: 0px;
+	width: 900px;
+	height: auto;
+	margin: 0 auto;
+	padding: 0;
+}
+.baner-footer-pag1 {
+	width:auto;
+	height: auto;
+	background-color: #333;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.77);
+	margin: 600px 0px 0px 0px; /*manda no tamanho do conteudo inteiro*/
+	opacity: .9;
+	padding: 10px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;	
+}
+.baner-footer-pag2 {
+	width:auto;
+	height: 100px;
+	background-color: #333;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.77);
+	margin: 1000px 0px 0px 0px;
+	opacity: .9;
+	padding: 10px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	text-align: center;
+	color: #FFF;
+	font-weight: bold;	
+}
+.texto-pag1-box1 {
+	width: 300px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	float: right;
+	margin-right: 40px;
+	margin-top: 75px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	padding: 10px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.figura-tabela {
+	position:absolute;
+	top:600px;
+	left:550px;
+}
+.figura2 {
+	position:absolute;
+	top:2130px;
+}
+.figura1 {
+	position:absolute;
+	top:900px;
+	left:50px;
+}
+.video1 {
+	width: 400px;
+	height: 300px;
+	float: left;
+	margin-top: 100px;
+	margin-left: 15px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.77);
+}
+.foto-autor {
+	float: right;
+	margin-right: 50px;
+}
+
+li {
+	list-style-type: none;
+}
+p{
+	text-indent:1em;
+}
+.titulo-paragrafo-pag2 {
+	width: 800px;
+	height: auto;
+	float: left;
+	margin-left: 40px;
+	margin-top: 50px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	padding: 1px;
+	color: #000;
+	display: block;
+}
+.titulo-paragrafo-pag2-meio {
+	width: 800px;
+	height: auto;
+	float: left;
+	margin-left: 200px;
+	margin-top: 50px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	padding: 1px;
+	color: #000;
+	display: block;
+}
+.texto-pag2-box1 {
+	width: 300px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding: 5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.texto-pag2-box2 {
+	width: 300px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	border-radius: 20px;
+	float: left;
+	margin-left: 40px;
+	margin-top: -5px;
+	margin-bottom:10px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style:oblique;
+	padding: 5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.texto-pag2-box2-right {
+	width: 300px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	margin-top:-20px;
+	margin-bottom:0px;
+	margin-right: 30px;
+	margin-left:220px;
+	border-radius: 20px;
+	float: left;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style:oblique;
+	padding:5px;
+	padding-bottom:0px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.texto-pag2-box3 {
+	width: 405px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	float: left;
+	margin-left: 40px;
+	margin-top: 10px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding: 5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.texto-pag2-box3b {
+	width: 405px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	float: left;
+	margin-left: 25px;
+	margin-top: 0px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding: 5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.texto-pag2-box3c {
+	width: 405px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	float: left;
+	margin-left: 40px;
+	margin-top: -40px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding: 5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.texto-pag2-box3-right {
+	width: 400px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	float: left;
+	margin-left: 475px;
+	margin-top: 20px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding: 5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.texto-pag2-box4 {
+	width: 150px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	border-radius: 20px;
+	float: right;
+	margin-right: 370px;
+	margin-top: 100px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 14px;
+	font-style:oblique;
+	padding: 15px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.titulo-persongens-pag3 {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 20px;
+	margin-top: auto;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 25px;
+	padding: 15px;
+	font-style:italic;
+	color: #000;
+	display: block;
+}
+.box1-pag3 {
+	width: auto;
+	height: 320px;
+	background:none;
+	border:solid 1px;
+	border-radius: 20px;
+	margin: 15px;
+	margin-top:45px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding:25px;
+	color: #000;
+	font-weight: 100;
+	
+	
+}
+.box2-pag3 {
+	width: 360px;
+	height: auto;
+	background:#CCC;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	border:solid 1px;
+	border-radius: 15px;
+	border-color:#000000;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding:5px;
+	float:left;	
+}
+
+.box1-2-pag3{/*alinhando a form de inserir nome*/
+	width: 260px;
+	height: auto;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	margin-bottom:20px;
+	margin-top:20px;
+	margin-left:5px;
+	
+}
+
+.box3-pag3 {
+	width: 220px;
+	height: auto;
+	background:#CCC;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	border:solid 1px;
+	border-radius: 15px;
+	border-color:#000000;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding:5px;
+	float:right;
+	margin-top:-60px;
+}
+.texto-pag4-box1 {
+	width: 850px;
+	height: auto;
+	background: #CCC;
+	border-style: double;
+	float:left;
+	margin-left:25px;
+	margin-top: 40px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	font-style:oblique;
+	padding: 5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+	color: #000;
+	font-weight: 100;
+	display: block;
+}
+.titulo-paragrafo-pag4 {
+	width: auto;
+	height: auto;
+	float: left;
+	margin-left: 25px;
+	margin-top: 50px;
+	font: Arial, Helvetica, sans-serif;
+	font-size: 16px;
+	padding: 10px;
+	color: #000;
+	display: block;
+	border:solid 1px #000000;
+	border-radius:5px;
+	-webkit-box-shadow: 5px 7px 5px rgba(50, 50, 50, 0.99);
+}

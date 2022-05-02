@@ -1,0 +1,840 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="Generator" content="EditPlus®">
+	<meta name="Author" content="Gustavo Cardoso Teixeira de Paulo">
+	<meta name="Keywords" content="Modelo site aluno estacio">
+	<meta name="Description" content="site analogo ao jogo middleearth.com">
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link href="EstiloG.css" rel="stylesheet" type="text/css">
+    <link href="Estilo.css" rel="stylesheet" type="text/css">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+<title>Criar Jogador</title>
+</head>
+<body class="conteudo-pag3">
+
+<header>
+
+	<div class="baner-fundo">
+    <div class="logog">
+    <img src="logo.png" alt="Batalha na Terra M?dia" width="360" height="40" vspace="25" hspace="15">
+	</div>
+    <div class="menu" align="center">
+    <ul>
+    <a href="Inicio.html">INÍCIO</a>&nbsp;&nbsp;&nbsp;
+    <a href="Jogo.html">JOGO</a>&nbsp;&nbsp;&nbsp;
+    <a href="Criar.html">CRIAR</a>&nbsp;&nbsp;&nbsp;
+    <a href="Sobre.html">SOBRE</a>&nbsp;&nbsp;&nbsp;
+    </ul>
+	</div>
+</div>
+</header>
+<!--Personagem1-->
+<div class="titulo-persongens-pag3">Personagem 1</div>
+<div class="box1-pag3" style="margin-top:50px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao" checked>
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta">
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt">
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn">
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan">
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna">  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor">
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai">
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+		</div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 1</button>
+</div>
+</div> 
+<!--Fim-->
+<!--Personagem2-->
+<div class="titulo-persongens-pag3">Personagem 2</div>
+<div class="box1-pag3" style="margin-top:65px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao">
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta">
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt" checked>
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn">
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan">
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna">  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor">
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai">
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+		</div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 2</button>
+</div>
+</div> 
+<!--Fim-->
+<!--Personagem3-->
+<div class="titulo-persongens-pag3">Personagem 3</div>
+<div class="box1-pag3" style="margin-top:65px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao">
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta">
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt">
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn">
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan" checked>
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna">  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor">
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai">
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+		</div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 3</button>
+</div>
+</div> 
+<!--Fim-->
+<!--Personagem4-->
+<div class="titulo-persongens-pag3">Personagem 4</div>
+<div class="box1-pag3" style="margin-top:65px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao">
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta">
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt">
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn">
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan">
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna">  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor" checked>
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai">
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+		</div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 4</button>
+</div>
+</div> 
+<!--Fim-->
+<!--Personagem5-->
+<div class="titulo-persongens-pag3">Personagem 5</div>
+<div class="box1-pag3" style="margin-top:65px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao">
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta" checked>
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt">
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn">
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan">
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna">  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor">
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai">
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+		</div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 5</button>
+</div>
+</div> 
+<!--Fim-->
+<!--Personagem6-->
+<div class="titulo-persongens-pag3">Personagem 6</div>
+<div class="box1-pag3" style="margin-top:65px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao">
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta">
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt">
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn" checked>
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan">
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna">  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor">
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai">
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+		</div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 6</button>
+</div>
+</div> 
+<!--Fim-->
+<!--Personagem7-->
+<div class="titulo-persongens-pag3">Personagem 7</div>
+<div class="box1-pag3" style="margin-top:65px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao">
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta">
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt">
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn">
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan">
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna" checked>  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor">
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai">
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+		</div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 7</button>
+</div>
+</div> 
+<!--Fim-->
+<!--Personagem8-->
+<div class="titulo-persongens-pag3">Personagem 8</div>
+<div class="box1-pag3" style="margin-top:65px;">
+<form>
+                <div class="box1-3-pag3">
+                <input type="checkbox" name="incluir">
+                <label for="incluir">Incluir este personagem na batalha</label>
+                </div>
+</form>      
+<form>
+                <div class="box1-2-pag3">
+                <label for="nome_responsavel">Nome</label>
+                <input type="text" name="nome_responsavel">
+                </div>
+</form>
+<form>
+<div style="margin-left:15px;">
+<th>Nação</th>
+</div>
+		<div class="box2-pag3">
+           <table width="370px">
+            <tr>
+            	<td>
+            	<input type="radio" id="anao" name="nacao" value="anao">
+                <label for="anao">Anão</label>
+            	</td>
+            	<td>
+                <input type="radio" id="elfo da Floresta" name="nacao" value="elfo da Floresta">
+                <label for="elfo da floresta">Elfo da Floresta</label>
+                </td>
+            </tr>
+            <tr>
+            	<td>
+            	<input type="radio" id="hobitt" name="nacao" value="hobitt">
+                <label for="hobbit">Hobbit</label>               
+            </td>
+				<td>
+                <input type="radio" id="elfo de Lothorien" name="nacao" value="elfo de Lothorienn">
+                <label for="elfo de Lothorien">Elfo de Lothorien</label>               
+                
+            </tr>
+			<tr>
+            	<td>
+            	<input type="radio" id="cavaleiro de Rohan" name="nacao" value="cavaleiro de Rohan">
+                <label for="cavaleiro de Rohan">Cavaleiro de Rohan</label>
+            	</td>
+            	<td>
+            	<input type="radio" id="orc Snagna" name="nacao" value="orc Snagna">  
+                <label for="Orc Snagna">Orc Snagna</label>
+ 				</td>
+            </tr>
+            <tr>
+            	<td>
+                <input type="radio" id="cavaleiro de gondor" name="nacao" value="cavaleiro de Gondor">
+                <label for="cavaleiro de Gondor">Cavaleiro de Gondor</label>
+           		</td>
+            	<td>
+            	<input type="radio" id="uruk-hai" name="nacao" value="uruk-hai" checked>
+                <label for="uruk-hai">Uruk-hai</label>            
+           		</td>
+            </tr>
+           </table>
+        </div>
+</form>
+
+<form>
+<div style="margin:-85px 125px 0px 160px; float:right">
+<th>Habilidades</th>
+</div>
+<div class="box3-pag3">
+<table>
+	<tr>
+	<td><label for="força">Força</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px" ></td>
+    </tr>
+    <tr>
+	<td><label for="precisao">Precisão</label></td>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="velocidade">Velocidade</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="armadura">Armadura</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center; border-radius:10px"></td>
+	</tr>
+    <tr>
+	<td><label for="Recuperacao">Recuperação</label>
+    <td><input type="number" name="habilidades" value="20" style="width:100px; text-align:center;border-radius:10px"></td>
+	</tr>
+</table>
+</div>
+</form>
+<div style="margin:140px 0px 0px 650px">
+<button>Criar personagem 8</button>
+</div>
+</div> 
+<!--Fim-->
+  
+<footer class="baner-footer-pag1" align="bottom">
+<ul>
+<li>Cursos de TI da Estácio de Brasilia em 2022.1 (TIEB 2022.1)</li>
+<li>Todos os direitos reservados</li>
+<li>(Terra-Média, locais e personagens são direitos de <a href="https://www.middleearth.com/home.html">Tolkien Enterprises</a>)</li>
+
+</ul>
+</footer>
+
+</body>
+</html>
